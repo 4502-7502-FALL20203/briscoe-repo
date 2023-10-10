@@ -177,54 +177,6 @@ h2 {
 	border-radius: 3px;
 }
 
-@media screen and (max-width: 479px) {
-
-	body {
-		background-color: whitesmoke;
-	}
-
-	main {
-		width: 100%;
-	}
-
-	img {
-		align-items: center;
-	}
-
-	h1 {
-		font-weight: 600;
-	}
-
-	p {
-		font-size 1rem;
-	}
-
-	nav {
-		max-width: 100%px;
-		font-size: 1rem;
-	}
-
-	nav ul {
-		display: flex;
-		align-items: stretch;
-		flex-direction: column;
-		justify content: space-between;
-		margin: auto;
-		padding: auto;
-	}
-
-	nav ul li {
-		flex-flow: row wrap;
-		list-style-type: none;
-		text-align: center;
-	}
-
-	nav ul li a {
-		text-decoration: none;
-		text-transform: uppercase;
-	}
-
-
 @media screen and (max-width:479px) {
 	body {
 		background-color: whitesmoke;
@@ -276,17 +228,18 @@ h2 {
 
 	nav ul li a {
 		text-decoration: none;
+		text-transform: capitalize;
 	}
 }
 
 @media screen and (min-width:480px){
 	body {
-		background-color: rgb(226, 223, 214);
+		background-color: rgb(200, 168, 155);
 	}
 }
 
 @media screen and (min-width:720px){
 	body {
-		background-color: ghostwhite;
+		background-color: rgb(226, 223, 214);
 	}
 }
