@@ -52,8 +52,9 @@ main {
 p {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 400;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
+	margin: 0.5rem;
 }
 
 p a {
@@ -78,7 +79,7 @@ h1 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 900;
 	font-size: 3rem;
-	margin: 1rem;
+	margin: 0.5rem;
 }
 
 h2 {
@@ -117,6 +118,7 @@ h2 {
 
 .list-item h2 {
 	display: flex;
+	margin-left: 0.7rem;
 }
 
 .director-label {
@@ -126,7 +128,7 @@ h2 {
 .list-item .director-label {
 	display: flex;
 	font-weight: 200;
-	margin-left: 1rem;
+	margin-left: 0.7rem;
 	
 }
 
@@ -137,13 +139,13 @@ h2 {
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
 	padding: 0.25rem;
-	margin-top: -1rem;
+	margin-top: -0.5rem;
 }
 
 .list-link a{
 	color: rgb(255, 199, 82);
 	text-decoration: underline solid rgb(255, 199, 82) 1px;
-	margin-left: 1rem;
+	margin-left: 0.2rem;
 }
 
 .list-image {
@@ -180,6 +182,7 @@ h2 {
 @media screen and (max-width:479px) {
 	body {
 		background-color: whitesmoke;
+		overflow-wrap: break-word;
 	}
 
 	main {
@@ -188,10 +191,12 @@ h2 {
 
 	img {
 		align-items: center;
+		max-width: 470px;
 	}
 
 	h1 {
 		font-weight: 700;
+		font-size: 1.5rem;
 	}
 
 	h2 {
@@ -200,7 +205,7 @@ h2 {
 	}
 
 	p {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 	}
 
 	nav {
@@ -235,11 +240,20 @@ h2 {
 @media screen and (min-width:480px){
 	body {
 		background-color: rgb(200, 168, 155);
+		overflow-wrap: normal;
+	}
+
+	h1 {
+		font-size: 2rem;
 	}
 }
 
 @media screen and (min-width:720px){
 	body {
 		background-color: rgb(226, 223, 214);
+	}
+
+	h1 {
+		font-size: 3rem
 	}
 }
