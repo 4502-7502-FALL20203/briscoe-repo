@@ -9,7 +9,7 @@ body {
 
 
 nav {
-	max-width: 800px
+	max-width: 800px;
 	margin: auto;
 	font-family: Old Standard TT, serif;
 	font-weight: 600;
@@ -27,7 +27,7 @@ nav ul {
 
 nav ul li {
 	background-color: black;
-	flex-flow: row-wrap;
+	flex-flow: row wrap;
 	align-items: stretch;
 	list-style-type: none;
 	padding: 1rem;
@@ -72,6 +72,7 @@ ul li a {
 
 
 footer {
+
 
 }
 
@@ -209,7 +210,7 @@ h2 {
 	}
 
 	nav {
-		max-width: 100%px;
+		max-width: 100%;
 		font-size: 1rem;
 	}
 
@@ -224,7 +225,7 @@ h2 {
 	}
 
 	nav ul li {
-		flex-flow: row-wrap;
+		flex-flow: row wrap;
 		list-style-type: none;
 		padding: 0.1rem;
 		text-align: center;
@@ -249,6 +250,10 @@ h2 {
 }
 
 @media screen and (min-width:720px){
+	nav {
+		max-width: 1920px;
+	}
+
 	body {
 		background-color: rgb(226, 223, 214);
 	}
