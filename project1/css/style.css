@@ -186,6 +186,10 @@ h2 {
 	border-radius: 3px;
 }
 
+.listings2 {
+	background-color: black;
+}
+
 @media screen and (max-width:479px) {
 	body {
 		background-color: whitesmoke;
