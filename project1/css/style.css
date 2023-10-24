@@ -67,12 +67,10 @@ ul li a {
 	color: rgb(127, 128, 0);
 }
 
-
 1rem
 
 
 footer {
-
 
 }
 
@@ -119,6 +117,13 @@ h2 {
 
 .list-item {
 	display: flex;
+	border-radius: 3px;
+	color: whitesmoke;
+}
+
+.listings2 .list-item {
+	display: flex;
+	flex-direction: column;
 	border-radius: 3px;
 	color: whitesmoke;
 }
@@ -188,6 +193,18 @@ h2 {
 
 .listings2 {
 	background-color: black;
+}
+
+.listings2 .list-item .desc-label {
+	font-weight: 400;
+}
+
+.listings2 .list-contact {
+	margin-left: 0.3rem;
+}
+
+.list-contact .address {
+	color: rgb(127, 128, 0);
 }
 
 
