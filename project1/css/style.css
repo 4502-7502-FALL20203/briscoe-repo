@@ -88,15 +88,17 @@ h2 {
 	font-style: italic;
 }
 
-figcaption {
-	font-family: 'Heebo', sans-serif;
-	font-weight: 400;
-	justify-content: flex-start;
-	align-items: center;
-	margin: 0.5rem;
-}
 
 /*Photo gallery css for back to roots*/
+
+figcaption {
+	font-family: 'Old Standard TT', serif;
+	font-weight: 400;
+	font-size: 1rem;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0.2rem;
+}
 
 .button_holder {
 	display: flex;
@@ -107,28 +109,32 @@ figcaption {
 button_next {  }
 button_previous {  }
 
-.stepper {  }
+.stepper { 
+
+}
 
 button {
-	background-color: skyblue;
-	margin: 1rem;
+	background-color: rgb(127, 128, 0);
+	margin: 2rem;
 	padding: 1rem;
 	min-width: 10rem;
-	font-size: 1.2rem;
-	border-radius: 0.5rem;
+	font-size: 0.8rem;
+	border-radius: 0.3rem;
 }
 
 .gallery-image {
-	max-width: 20rem;
+	align-items: center;
 }
 
 .gallery-image img {
 	justify-content: flex-start;
 	align-items: center;
-	width: 756px;
-	height: 567px;
+	width: 100%;
 }
 
+.hideThis {
+	display: none;
+}
 
 .mailing-link {
 	display: flex;
