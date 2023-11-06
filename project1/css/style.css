@@ -88,6 +88,48 @@ h2 {
 	font-style: italic;
 }
 
+figcaption {
+	font-family: 'Heebo', sans-serif;
+	font-weight: 400;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0.5rem;
+}
+
+/*Photo gallery css for back to roots*/
+
+.button_holder {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+button_next {  }
+button_previous {  }
+
+.stepper {  }
+
+button {
+	background-color: skyblue;
+	margin: 1rem;
+	padding: 1rem;
+	min-width: 10rem;
+	font-size: 1.2rem;
+	border-radius: 0.5rem;
+}
+
+.gallery-image {
+	max-width: 20rem;
+}
+
+.gallery-image img {
+	justify-content: flex-start;
+	align-items: center;
+	width: 756px;
+	height: 567px;
+}
+
+
 .mailing-link {
 	display: flex;
 	flex-direction: column;
